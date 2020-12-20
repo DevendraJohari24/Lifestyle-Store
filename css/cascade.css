@@ -1,0 +1,49 @@
+body { 
+        margin: 0; 
+} 
+  
+header { 
+    display: flex; 
+    /* Using flexbox property for parent 
+       also known as inline-flex */ 
+    justify-content: space-between; 
+    /* Items are evenly distributed in  
+       the line; firstitem is on the  
+       start line, last item on the  
+       end line*/ 
+    align-items: center; 
+    padding: 5px; 
+    position: fixed; 
+    overflow: hidden; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    width: 100%; 
+} 
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background-size: cover;
+    background-image: url(../image/intro-bg_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
